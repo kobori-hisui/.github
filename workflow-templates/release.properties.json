@@ -1,0 +1,6 @@
+{
+  "name": "Release on version tag (browser extensions)",
+  "description": "When a vX.Y.Z tag is pushed, build the project and publish a GitHub release with generated notes and any .output/*.zip files attached.",
+  "iconName": "extension",
+  "categories": ["JavaScript", "TypeScript", "npm"]
+}

@@ -1,0 +1,20 @@
+name: Task
+description: A planned piece of work (maintainers)
+title: "chore: "
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What needs to be done and why.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: true

@@ -1,0 +1,9 @@
+# Sponsor button. Remove the leading "#" and fill in a value to enable a platform.
+# Invalid values make GitHub reject the file, so only enable what you actually use.
+
+# github: [username]            # GitHub Sponsors (up to 4 usernames)
+# ko_fi: username
+# buy_me_a_coffee: username
+# patreon: username
+# open_collective: project-name
+# custom: ["https://example.com/donate"]

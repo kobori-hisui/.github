@@ -1,0 +1,22 @@
+title: "[Q&A] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search existing discussions and the README before asking.
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: Be specific about what you are trying to do.
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: What have you tried?
+  - type: input
+    id: version
+    attributes:
+      label: Version and browser
+      placeholder: "0.3.2 on Chrome 130"

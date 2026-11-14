@@ -1,0 +1,6 @@
+{
+  "name": "Node + pnpm CI (browser extensions)",
+  "description": "Install dependencies, lint, type-check, test and build a pnpm project on every push and pull request.",
+  "iconName": "extension",
+  "categories": ["JavaScript", "TypeScript", "npm"]
+}

@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [ $default-branch ]
+  pull_request:
+    branches: [ $default-branch ]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Reads the pnpm version from the "packageManager" field of package.json.
+      # If your project does not define it, add `with: { version: 10 }` here.
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      # Each step is skipped when the script does not exist in package.json.
+      - run: pnpm run --if-present lint
+      - run: pnpm run --if-present compile
+      - run: pnpm run --if-present test
+      - run: pnpm run --if-present build

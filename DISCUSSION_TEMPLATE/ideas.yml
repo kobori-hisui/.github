@@ -1,0 +1,16 @@
+title: "[Idea] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share an early idea. If it becomes concrete, it can be turned into a feature request issue.
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would it help?
