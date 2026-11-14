@@ -1,4 +1,4 @@
-# this organization principal development extension open source
+# kobori-hisui
 
 We build **open source browser extensions of all kinds**: downloaders, productivity tools, developer utilities and anything that makes the web more useful.
 
@@ -18,6 +18,17 @@ TypeScript · React · WXT
 2. Fork the repository and create a branch: `fix/123-short-description`.
 3. Open a pull request that references the issue (`Closes #123`).
 
+Read the full [contributing guide](https://github.com/kobori-hisui/.github/blob/main/CONTRIBUTING.md) before sending a pull request.
+
+## Community
+
+- [Contributing](https://github.com/kobori-hisui/.github/blob/main/CONTRIBUTING.md): how to report bugs, suggest features and send pull requests
+- [Security](https://github.com/kobori-hisui/.github/blob/main/SECURITY.md): how to report a vulnerability privately
+- [Support](https://github.com/kobori-hisui/.github/blob/main/SUPPORT.md): where to ask for help
+- [Code of Conduct](https://github.com/kobori-hisui/.github/blob/main/CODE_OF_CONDUCT.md): the standards we follow
+- [Governance](https://github.com/kobori-hisui/.github/blob/main/GOVERNANCE.md): how decisions are made
+
+  
 ## My works
 
 
