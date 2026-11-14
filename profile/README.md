@@ -1,49 +1,24 @@
 # this organization principal development extension open source
 
+We build **open source browser extensions of all kinds**: downloaders, productivity tools, developer utilities and anything that makes the web more useful.
 
+## What we do
 
-We build \*\*open source browser extensions of all kinds\*\*: downloaders, productivity tools, developer utilities and anything that makes the web more useful.
+- Chrome extensions (Manifest V3)
+- Small, focused tools that do one thing well
+- Open source: read the code, report issues, send pull requests
 
-
-
-\## What we do
-
-
-
-\- Chrome extensions (Manifest V3)
-
-\- Small, focused tools that do one thing well
-
-\- Open source: read the code, report issues, send pull requests
-
-
-
-\## Stack
-
-
+## Stack
 
 TypeScript · React · WXT
 
+## Contribute
 
+1. Open an issue describing the bug or the idea.
+2. Fork the repository and create a branch: `fix/123-short-description`.
+3. Open a pull request that references the issue (`Closes #123`).
 
-\## Contribute
-
-
-
-1\. Open an issue describing the bug or the idea.
-
-2\. Fork the repository and create a branch: `fix/123-short-description`.
-
-3\. Open a pull request that references the issue (`Closes #123`).
-
-
-
-\## Contact
-
-
-
-Open an issue in the repository that matches your question.
-
+## My works
 
 
 [instagram downloader](https://github.com/kobori-hisui/instagram-downloader), download (post, reels, stories)
